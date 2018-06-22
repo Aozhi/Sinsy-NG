@@ -1,0 +1,8 @@
+/Users/ghostgloomy/VS/sinsy/build/CMakeFiles/install/local.dir
+/Users/ghostgloomy/VS/sinsy/build/CMakeFiles/install/strip.dir
+/Users/ghostgloomy/VS/sinsy/build/CMakeFiles/install.dir
+/Users/ghostgloomy/VS/sinsy/build/CMakeFiles/list_install_components.dir
+/Users/ghostgloomy/VS/sinsy/build/CMakeFiles/rebuild_cache.dir
+/Users/ghostgloomy/VS/sinsy/build/CMakeFiles/edit_cache.dir
+/Users/ghostgloomy/VS/sinsy/build/CMakeFiles/sinsyNG.dir
+/Users/ghostgloomy/VS/sinsy/build/CMakeFiles/sinsy.dir

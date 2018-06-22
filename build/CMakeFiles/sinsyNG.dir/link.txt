@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  --std=gnu++11  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/sinsyNG.dir/bin/sinsy.o  -o sinsyNG  -L/Users/ghostgloomy/VS/sinsy/build libsinsy.dylib -lespeak-ng -lsndfile -lsamplerate 
