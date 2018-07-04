@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\test_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\test_conversions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\test_float.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\src\test_endswap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\test_audio_detect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\test_log_printf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\test_file_io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\test_ima_oki_adpcm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\test_strncpy_crlf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\test_broadcast_var.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\test_cart_var.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\test_binheader_writef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\test_nms_adpcm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\test_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\test_endswap.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9A440D18-9D5C-32A9-8ADB-E57035036CF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{999D7DBD-05C5-33FA-B937-85B38AB587A6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

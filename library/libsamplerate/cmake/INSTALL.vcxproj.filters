@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\CMakeFiles\92e91ad11d68cdd0a89ed0196b503051\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3C1A26A3-4A0A-3354-B8F5-4AF3216D79BB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

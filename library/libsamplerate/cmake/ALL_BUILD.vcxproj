@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5AAE1873-4538-3ABC-B6E1-91D13E0430A8}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\gitcode\Sinsy-NG\library\libsamplerate\Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\gitcode\Sinsy-NG\library\libsamplerate\Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\gitcode\Sinsy-NG\library\libsamplerate\Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\gitcode\Sinsy-NG\library\libsamplerate\Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\ZERO_CHECK.vcxproj">
+      <Project>{373A1C9E-FDEF-309B-9EFE-E5C9C15D0077}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\callback_hang_test.vcxproj">
+      <Project>{33BE1515-2FA5-3B33-84DC-2E1A33F93840}</Project>
+      <Name>callback_hang_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\callback_test.vcxproj">
+      <Project>{B82EC399-3F58-3FCE-A6FC-4E172222685D}</Project>
+      <Name>callback_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\clone_test.vcxproj">
+      <Project>{BA9A24D4-3943-372A-862F-B8EC9659114D}</Project>
+      <Name>clone_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\downsample_test.vcxproj">
+      <Project>{F1B9AAF8-1C57-3E35-A447-3208FA239CDE}</Project>
+      <Name>downsample_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\float_short_test.vcxproj">
+      <Project>{09D0ED70-DB40-306F-845F-D4436A023652}</Project>
+      <Name>float_short_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\misc_test.vcxproj">
+      <Project>{C8F21480-53B2-3C47-8D77-4FCF7A3983D0}</Project>
+      <Name>misc_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\multi_channel_test.vcxproj">
+      <Project>{0793DD1F-9F45-395F-B9B4-3E4E03F80FD3}</Project>
+      <Name>multi_channel_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\multichan_throughput_test.vcxproj">
+      <Project>{364E34F6-3FFE-310E-9E5C-A752BAB9125D}</Project>
+      <Name>multichan_throughput_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\nullptr_test.vcxproj">
+      <Project>{425B1DD6-3574-3EEE-A9E0-4F513FA3A29D}</Project>
+      <Name>nullptr_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\reset_test.vcxproj">
+      <Project>{6E55296C-16DF-3E94-BE76-22FA637FF038}</Project>
+      <Name>reset_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\samplerate.vcxproj">
+      <Project>{5729DE57-90FC-31EA-95CC-A82A767D6A10}</Project>
+      <Name>samplerate</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\simple_test.vcxproj">
+      <Project>{41BCD9DC-8971-309A-95DB-269150142DCA}</Project>
+      <Name>simple_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\snr_bw_test.vcxproj">
+      <Project>{D293DA3E-BCCC-35EE-9AAA-53A9BCDFD8F5}</Project>
+      <Name>snr_bw_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\streaming_test.vcxproj">
+      <Project>{0FF91E81-85B5-3F04-83B5-CB631659F357}</Project>
+      <Name>streaming_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\termination_test.vcxproj">
+      <Project>{8F056C31-1A73-3F86-8840-6E6F8A10A2FE}</Project>
+      <Name>termination_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\throughput_test.vcxproj">
+      <Project>{4D42DF0C-0813-39B4-8D15-2518365DD043}</Project>
+      <Name>throughput_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\timewarp-file.vcxproj">
+      <Project>{57A5CA45-2245-33F8-BA47-53710D72283C}</Project>
+      <Name>timewarp-file</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\varispeed-play.vcxproj">
+      <Project>{EC929441-3625-362B-B635-E4CA2054B0BE}</Project>
+      <Name>varispeed-play</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsamplerate\cmake\varispeed_test.vcxproj">
+      <Project>{3EB498C4-069D-3922-A5C6-85E3A5592A48}</Project>
+      <Name>varispeed_test</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

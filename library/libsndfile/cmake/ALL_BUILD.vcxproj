@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E96C7F6E-614B-33AC-965D-1A597717F07E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\ZERO_CHECK.vcxproj">
+      <Project>{A445599C-705A-30B9-8F62-BC34F591B11A}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\aiff_rw_test.vcxproj">
+      <Project>{2837952B-FE61-33A4-B26D-4AB4E52AF72B}</Project>
+      <Name>aiff_rw_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\alaw_test.vcxproj">
+      <Project>{65B045D6-10D6-3276-8E8C-748EC6D6DF69}</Project>
+      <Name>alaw_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\channel_test.vcxproj">
+      <Project>{C272BD48-277E-3D88-8B4C-37AE5E87C27E}</Project>
+      <Name>channel_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\checksum_test.vcxproj">
+      <Project>{71A63DCA-0898-3282-9B5B-94AF1F75E0F7}</Project>
+      <Name>checksum_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\chunk_test.vcxproj">
+      <Project>{B11289F9-B65D-3212-A4EC-DA222A8F58B0}</Project>
+      <Name>chunk_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\command_test.vcxproj">
+      <Project>{F7DEF53C-DA49-3D56-ABC7-A8D83CC56F90}</Project>
+      <Name>command_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\compression_size_test.vcxproj">
+      <Project>{AD83F8E1-7BB5-3C2C-9622-E6912B7930CC}</Project>
+      <Name>compression_size_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\cpp_test.vcxproj">
+      <Project>{27FACC10-E288-3DAF-9FFC-AB7124A113A9}</Project>
+      <Name>cpp_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\dwvw_test.vcxproj">
+      <Project>{910088CB-AB08-3DF9-802F-6332B91D08FD}</Project>
+      <Name>dwvw_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\error_test.vcxproj">
+      <Project>{59366289-9678-33C9-BABA-0DFB8CF67C2A}</Project>
+      <Name>error_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\external_libs_test.vcxproj">
+      <Project>{214EB650-8CF0-3D80-8BEF-13428C3101D8}</Project>
+      <Name>external_libs_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\floating_point_test.vcxproj">
+      <Project>{16F9ECF9-41E3-39C8-A919-F4B5ED2202BF}</Project>
+      <Name>floating_point_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\format_check_test.vcxproj">
+      <Project>{8D549EC1-0B1B-3AFB-A7C5-D600E5B725AC}</Project>
+      <Name>format_check_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\g72x_test.vcxproj">
+      <Project>{AD981BE5-8212-3107-8FB4-98A8A580A1DB}</Project>
+      <Name>g72x_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\header_test.vcxproj">
+      <Project>{B9132CE7-AD3E-3EA3-BB7F-562A0394ABC4}</Project>
+      <Name>header_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\headerless_test.vcxproj">
+      <Project>{9373D71A-D017-3FF2-AEE3-4416A59B5E04}</Project>
+      <Name>headerless_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\list_formats.vcxproj">
+      <Project>{9A934363-1929-34F8-BFE4-D31EF5ACFC96}</Project>
+      <Name>list_formats</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\locale_test.vcxproj">
+      <Project>{038A4E2A-F535-37FC-8671-2C7CF781FC3F}</Project>
+      <Name>locale_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\long_read_write_test.vcxproj">
+      <Project>{74A42EB2-0030-3ACD-B331-66CD8A3E860B}</Project>
+      <Name>long_read_write_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\lossy_comp_test.vcxproj">
+      <Project>{95155F76-C81E-399F-9269-1019F43CD528}</Project>
+      <Name>lossy_comp_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\make_sine.vcxproj">
+      <Project>{04EF36EE-B1A9-3183-BF1F-38B7C29CF3C2}</Project>
+      <Name>make_sine</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\misc_test.vcxproj">
+      <Project>{051EA7FC-9B71-3A75-88A3-A4E32DA8B758}</Project>
+      <Name>misc_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\multi_file_test.vcxproj">
+      <Project>{2E635552-7532-39BB-9AC4-7455BF0F2003}</Project>
+      <Name>multi_file_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\ogg_test.vcxproj">
+      <Project>{FFBDCC72-0DC0-3B78-8C28-65780F5D0A8A}</Project>
+      <Name>ogg_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\pcm_test.vcxproj">
+      <Project>{010A6259-26CC-32AD-A660-0278AA92F1F7}</Project>
+      <Name>pcm_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\peak_chunk_test.vcxproj">
+      <Project>{ED9F9D2F-0AF9-3A0B-86CC-36BBD4E71976}</Project>
+      <Name>peak_chunk_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\pipe_test.vcxproj">
+      <Project>{D1CBD30C-F92F-3D24-A7C5-85A0A8DC70F7}</Project>
+      <Name>pipe_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\raw_test.vcxproj">
+      <Project>{A10114D7-0315-3FA0-A2AC-45462C7B8C67}</Project>
+      <Name>raw_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\rdwr_test.vcxproj">
+      <Project>{F3B2F9EB-A4CC-33A1-93CC-19267563EB4E}</Project>
+      <Name>rdwr_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\scale_clip_test.vcxproj">
+      <Project>{A950A7FB-104A-37E2-91D6-C4CFF0FDAB01}</Project>
+      <Name>scale_clip_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\sfprocess.vcxproj">
+      <Project>{A3208EF2-5768-302C-87DD-1A0B8E751A8E}</Project>
+      <Name>sfprocess</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\sfversion.vcxproj">
+      <Project>{DA1BF479-6A9A-3CEA-8D95-8CB5DD86BF10}</Project>
+      <Name>sfversion</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\sndfile-cmp.vcxproj">
+      <Project>{34F9B827-FC85-304B-8245-A9692375D659}</Project>
+      <Name>sndfile-cmp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\sndfile-concat.vcxproj">
+      <Project>{9E90FC2E-6EF1-33F0-A61A-443598038336}</Project>
+      <Name>sndfile-concat</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\sndfile-convert.vcxproj">
+      <Project>{44EA3670-689C-3C29-BBC1-FDAD17A5D98F}</Project>
+      <Name>sndfile-convert</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\sndfile-deinterleave.vcxproj">
+      <Project>{DABA2047-F951-36D1-BE67-ED096B895238}</Project>
+      <Name>sndfile-deinterleave</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\sndfile-info.vcxproj">
+      <Project>{9234CC60-AE81-328C-9275-1D3056CCEA47}</Project>
+      <Name>sndfile-info</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\sndfile-interleave.vcxproj">
+      <Project>{3CD59A74-B1B8-3352-B091-E236245637D5}</Project>
+      <Name>sndfile-interleave</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\sndfile-loopify.vcxproj">
+      <Project>{2C118E2D-5FB0-34BE-9F8B-1C18FC031A4C}</Project>
+      <Name>sndfile-loopify</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\sndfile-metadata-get.vcxproj">
+      <Project>{45FCF6C0-50CA-38F5-AC3B-CE85DBA8BA81}</Project>
+      <Name>sndfile-metadata-get</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\sndfile-metadata-set.vcxproj">
+      <Project>{35E3C833-DE0F-3AAF-80B5-596B447F2B05}</Project>
+      <Name>sndfile-metadata-set</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\sndfile-play.vcxproj">
+      <Project>{CB51ED74-7BFF-3BC4-9244-169C61F464A2}</Project>
+      <Name>sndfile-play</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\sndfile-salvage.vcxproj">
+      <Project>{273F763F-6519-3C68-87F6-F4871DB653CD}</Project>
+      <Name>sndfile-salvage</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\sndfile-shared.vcxproj">
+      <Project>{0CA4FC1B-CFDE-3282-A195-165BDF04391E}</Project>
+      <Name>sndfile-shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\sndfile-static.vcxproj">
+      <Project>{0AF4A734-3104-365D-9F54-2209CAB8FA8A}</Project>
+      <Name>sndfile-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\sndfile-to-text.vcxproj">
+      <Project>{84805DD1-241A-3060-B325-C1174CD24162}</Project>
+      <Name>sndfile-to-text</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\sndfilehandle.vcxproj">
+      <Project>{C1A639A8-A8A6-3852-BA97-A56624F5DE7F}</Project>
+      <Name>sndfilehandle</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\stdin_test.vcxproj">
+      <Project>{1889E39B-789D-3297-851B-C6D550C37FCB}</Project>
+      <Name>stdin_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\stdio_test.vcxproj">
+      <Project>{DAF8496C-5C4C-3074-8340-6FC9FD35F4A4}</Project>
+      <Name>stdio_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\stdout_test.vcxproj">
+      <Project>{C5EBB26C-D2CF-3452-95A7-53B8CEF92111}</Project>
+      <Name>stdout_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\string_test.vcxproj">
+      <Project>{42B5A6FF-D93E-308F-BECA-7990910C9B67}</Project>
+      <Name>string_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\test_main.vcxproj">
+      <Project>{D17A59E8-EF29-3939-AB98-9DA522DF29E5}</Project>
+      <Name>test_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\test_utils.vcxproj">
+      <Project>{E2424F88-C5B0-3CA5-88BC-A13284B5A23C}</Project>
+      <Name>test_utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\ulaw_test.vcxproj">
+      <Project>{1B51912D-1150-38FA-AD7E-F13F3376B0B0}</Project>
+      <Name>ulaw_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\virtual_io_test.vcxproj">
+      <Project>{89CA79E3-D97F-36DE-BD5B-FDD4C4ECEA60}</Project>
+      <Name>virtual_io_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\win32_ordinal_test.vcxproj">
+      <Project>{B62AABF6-E38A-3DEC-AC2D-0EC993C6FBEB}</Project>
+      <Name>win32_ordinal_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\write_read_test.vcxproj">
+      <Project>{7CF3DCE9-5F57-38EB-A4E2-5EC900F653E8}</Project>
+      <Name>write_read_test</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

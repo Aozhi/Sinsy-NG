@@ -1,7 +1,7 @@
 The system is: Windows - 10.0.17134 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler:  
-Build flags: 
+Build flags: /DWIN32;/D_WINDOWS;/W3
 Id flags:  
 
 The output was:
@@ -9,7 +9,7 @@ The output was:
 ���� .NET Framework �� Microsoft (R) ��������汾 15.7.179.6572
 ��Ȩ����(C) Microsoft Corporation����������Ȩ����
 
-��������ʱ��Ϊ 2018/7/4 14:58:01��
+��������ʱ��Ϊ 2018/7/4 15:22:02��
 �ڵ� 1 �ϵ���Ŀ��E:\gitcode\Sinsy-NG\CMakeFiles\3.12.0-rc1\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
 PrepareForBuild:
   ���ڴ���Ŀ¼��Debug\����
@@ -35,7 +35,7 @@ FinalizeBuildStatus:
     0 ������
     0 ������
 
-����ʱ�� 00:00:00.82
+����ʱ�� 00:00:00.74
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -46,7 +46,7 @@ The C compiler identification is MSVC, found in "E:/gitcode/Sinsy-NG/CMakeFiles/
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
-Build flags: 
+Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
 Id flags:  
 
 The output was:
@@ -54,7 +54,7 @@ The output was:
 ���� .NET Framework �� Microsoft (R) ��������汾 15.7.179.6572
 ��Ȩ����(C) Microsoft Corporation����������Ȩ����
 
-��������ʱ��Ϊ 2018/7/4 14:58:02��
+��������ʱ��Ϊ 2018/7/4 15:22:03��
 �ڵ� 1 �ϵ���Ŀ��E:\gitcode\Sinsy-NG\CMakeFiles\3.12.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)��
 PrepareForBuild:
   ���ڴ���Ŀ¼��Debug\����
@@ -80,7 +80,7 @@ FinalizeBuildStatus:
     0 ������
     0 ������
 
-����ʱ�� 00:00:00.54
+����ʱ�� 00:00:00.51
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,77 +92,77 @@ The CXX compiler identification is MSVC, found in "E:/gitcode/Sinsy-NG/CMakeFile
 Determining if the C compiler works passed with the following output:
 Change Dir: E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_6b956.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_3a175.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.179.6572
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2018/7/4 14:58:03。
-节点 1 上的项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_6b956.vcxproj”(默认目标)。
+生成启动时间为 2018/7/4 15:22:04。
+节点 1 上的项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_3a175.vcxproj”(默认目标)。
 PrepareForBuild:
-  正在创建目录“cmTC_6b956.dir\Debug\”。
+  正在创建目录“cmTC_3a175.dir\Debug\”。
   正在创建目录“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_6b956.dir\Debug\cmTC_6b956.tlog\”。
+  正在创建目录“cmTC_3a175.dir\Debug\cmTC_3a175.tlog\”。
 InitializeBuildStatus:
-  正在创建“cmTC_6b956.dir\Debug\cmTC_6b956.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在创建“cmTC_3a175.dir\Debug\cmTC_3a175.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6b956.dir\Debug\\" /Fd"cmTC_6b956.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\testCCompiler.c"
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a175.dir\Debug\\" /Fd"cmTC_3a175.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\testCCompiler.c"
   用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.14.26431 版
   版权所有(C) Microsoft Corporation。保留所有权利。
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6b956.dir\Debug\\" /Fd"cmTC_6b956.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\testCCompiler.c"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a175.dir\Debug\\" /Fd"cmTC_3a175.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\testCCompiler.c"
   testCCompiler.c
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_6b956.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_6b956.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_6b956.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6b956.dir\Debug\testCCompiler.obj
-  cmTC_6b956.vcxproj -> E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_6b956.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_3a175.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_3a175.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_3a175.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3a175.dir\Debug\testCCompiler.obj
+  cmTC_3a175.vcxproj -> E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_3a175.exe
 FinalizeBuildStatus:
-  正在删除文件“cmTC_6b956.dir\Debug\cmTC_6b956.tlog\unsuccessfulbuild”。
-  正在对“cmTC_6b956.dir\Debug\cmTC_6b956.tlog\cmTC_6b956.lastbuildstate”执行 Touch 任务。
-已完成生成项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_6b956.vcxproj”(默认目标)的操作。
-
-已成功生成。
-    0 个警告
-    0 个错误
-
-已用时间 00:00:00.89
-
-
-Detecting C compiler ABI info compiled with the following output:
-Change Dir: E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_fb4f6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.179.6572
-版权所有(C) Microsoft Corporation。保留所有权利。
-
-生成启动时间为 2018/7/4 14:58:04。
-节点 1 上的项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_fb4f6.vcxproj”(默认目标)。
-PrepareForBuild:
-  正在创建目录“cmTC_fb4f6.dir\Debug\”。
-  正在创建目录“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_fb4f6.dir\Debug\cmTC_fb4f6.tlog\”。
-InitializeBuildStatus:
-  正在创建“cmTC_fb4f6.dir\Debug\cmTC_fb4f6.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb4f6.dir\Debug\\" /Fd"cmTC_fb4f6.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
-  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.14.26431 版
-  版权所有(C) Microsoft Corporation。保留所有权利。
-  
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb4f6.dir\Debug\\" /Fd"cmTC_fb4f6.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
-  CMakeCCompilerABI.c
-  
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_fb4f6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_fb4f6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_fb4f6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_fb4f6.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_fb4f6.vcxproj -> E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_fb4f6.exe
-FinalizeBuildStatus:
-  正在删除文件“cmTC_fb4f6.dir\Debug\cmTC_fb4f6.tlog\unsuccessfulbuild”。
-  正在对“cmTC_fb4f6.dir\Debug\cmTC_fb4f6.tlog\cmTC_fb4f6.lastbuildstate”执行 Touch 任务。
-已完成生成项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_fb4f6.vcxproj”(默认目标)的操作。
+  正在删除文件“cmTC_3a175.dir\Debug\cmTC_3a175.tlog\unsuccessfulbuild”。
+  正在对“cmTC_3a175.dir\Debug\cmTC_3a175.tlog\cmTC_3a175.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_3a175.vcxproj”(默认目标)的操作。
 
 已成功生成。
     0 个警告
     0 个错误
 
 已用时间 00:00:00.65
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e8556.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.179.6572
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/7/4 15:22:05。
+节点 1 上的项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_e8556.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_e8556.dir\Debug\”。
+  正在创建目录“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_e8556.dir\Debug\cmTC_e8556.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_e8556.dir\Debug\cmTC_e8556.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8556.dir\Debug\\" /Fd"cmTC_e8556.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.14.26431 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8556.dir\Debug\\" /Fd"cmTC_e8556.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_e8556.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_e8556.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_e8556.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e8556.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_e8556.vcxproj -> E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_e8556.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_e8556.dir\Debug\cmTC_e8556.tlog\unsuccessfulbuild”。
+  正在对“cmTC_e8556.dir\Debug\cmTC_e8556.tlog\cmTC_e8556.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_e8556.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.59
 
 
 
@@ -170,39 +170,39 @@ FinalizeBuildStatus:
 Detecting C [] compiler features compiled with the following output:
 Change Dir: E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_50d2b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_8afdc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.179.6572
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2018/7/4 14:58:04。
-节点 1 上的项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_50d2b.vcxproj”(默认目标)。
+生成启动时间为 2018/7/4 15:22:05。
+节点 1 上的项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_8afdc.vcxproj”(默认目标)。
 PrepareForBuild:
-  正在创建目录“cmTC_50d2b.dir\Debug\”。
+  正在创建目录“cmTC_8afdc.dir\Debug\”。
   正在创建目录“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_50d2b.dir\Debug\cmTC_50d2b.tlog\”。
+  正在创建目录“cmTC_8afdc.dir\Debug\cmTC_8afdc.tlog\”。
 InitializeBuildStatus:
-  正在创建“cmTC_50d2b.dir\Debug\cmTC_50d2b.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在创建“cmTC_8afdc.dir\Debug\cmTC_8afdc.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50d2b.dir\Debug\\" /Fd"cmTC_50d2b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "E:\gitcode\Sinsy-NG\CMakeFiles\feature_tests.c"
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8afdc.dir\Debug\\" /Fd"cmTC_8afdc.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "E:\gitcode\Sinsy-NG\CMakeFiles\feature_tests.c"
   用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.14.26431 版
   版权所有(C) Microsoft Corporation。保留所有权利。
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50d2b.dir\Debug\\" /Fd"cmTC_50d2b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "E:\gitcode\Sinsy-NG\CMakeFiles\feature_tests.c"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8afdc.dir\Debug\\" /Fd"cmTC_8afdc.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "E:\gitcode\Sinsy-NG\CMakeFiles\feature_tests.c"
   feature_tests.c
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_50d2b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_50d2b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_50d2b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_50d2b.dir\Debug\feature_tests.obj
-  cmTC_50d2b.vcxproj -> E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_50d2b.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_8afdc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_8afdc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_8afdc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_8afdc.dir\Debug\feature_tests.obj
+  cmTC_8afdc.vcxproj -> E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_8afdc.exe
 FinalizeBuildStatus:
-  正在删除文件“cmTC_50d2b.dir\Debug\cmTC_50d2b.tlog\unsuccessfulbuild”。
-  正在对“cmTC_50d2b.dir\Debug\cmTC_50d2b.tlog\cmTC_50d2b.lastbuildstate”执行 Touch 任务。
-已完成生成项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_50d2b.vcxproj”(默认目标)的操作。
+  正在删除文件“cmTC_8afdc.dir\Debug\cmTC_8afdc.tlog\unsuccessfulbuild”。
+  正在对“cmTC_8afdc.dir\Debug\cmTC_8afdc.tlog\cmTC_8afdc.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_8afdc.vcxproj”(默认目标)的操作。
 
 已成功生成。
     0 个警告
     0 个错误
 
-已用时间 00:00:00.65
+已用时间 00:00:00.64
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -210,77 +210,77 @@ FinalizeBuildStatus:
 Determining if the CXX compiler works passed with the following output:
 Change Dir: E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_c913d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_9f3ea.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.179.6572
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2018/7/4 14:58:05。
-节点 1 上的项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_c913d.vcxproj”(默认目标)。
+生成启动时间为 2018/7/4 15:22:06。
+节点 1 上的项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_9f3ea.vcxproj”(默认目标)。
 PrepareForBuild:
-  正在创建目录“cmTC_c913d.dir\Debug\”。
+  正在创建目录“cmTC_9f3ea.dir\Debug\”。
   正在创建目录“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_c913d.dir\Debug\cmTC_c913d.tlog\”。
+  正在创建目录“cmTC_9f3ea.dir\Debug\cmTC_9f3ea.tlog\”。
 InitializeBuildStatus:
-  正在创建“cmTC_c913d.dir\Debug\cmTC_c913d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在创建“cmTC_9f3ea.dir\Debug\cmTC_9f3ea.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c913d.dir\Debug\\" /Fd"cmTC_c913d.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9f3ea.dir\Debug\\" /Fd"cmTC_9f3ea.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
   用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.14.26431 版
   版权所有(C) Microsoft Corporation。保留所有权利。
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c913d.dir\Debug\\" /Fd"cmTC_c913d.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9f3ea.dir\Debug\\" /Fd"cmTC_9f3ea.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
   testCXXCompiler.cxx
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_c913d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_c913d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_c913d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c913d.dir\Debug\testCXXCompiler.obj
-  cmTC_c913d.vcxproj -> E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_c913d.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_9f3ea.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_9f3ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_9f3ea.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9f3ea.dir\Debug\testCXXCompiler.obj
+  cmTC_9f3ea.vcxproj -> E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_9f3ea.exe
 FinalizeBuildStatus:
-  正在删除文件“cmTC_c913d.dir\Debug\cmTC_c913d.tlog\unsuccessfulbuild”。
-  正在对“cmTC_c913d.dir\Debug\cmTC_c913d.tlog\cmTC_c913d.lastbuildstate”执行 Touch 任务。
-已完成生成项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_c913d.vcxproj”(默认目标)的操作。
+  正在删除文件“cmTC_9f3ea.dir\Debug\cmTC_9f3ea.tlog\unsuccessfulbuild”。
+  正在对“cmTC_9f3ea.dir\Debug\cmTC_9f3ea.tlog\cmTC_9f3ea.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_9f3ea.vcxproj”(默认目标)的操作。
 
 已成功生成。
     0 个警告
     0 个错误
 
-已用时间 00:00:00.67
+已用时间 00:00:00.64
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_6dca2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e56a8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.179.6572
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2018/7/4 14:58:06。
-节点 1 上的项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_6dca2.vcxproj”(默认目标)。
+生成启动时间为 2018/7/4 15:22:07。
+节点 1 上的项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_e56a8.vcxproj”(默认目标)。
 PrepareForBuild:
-  正在创建目录“cmTC_6dca2.dir\Debug\”。
+  正在创建目录“cmTC_e56a8.dir\Debug\”。
   正在创建目录“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_6dca2.dir\Debug\cmTC_6dca2.tlog\”。
+  正在创建目录“cmTC_e56a8.dir\Debug\cmTC_e56a8.tlog\”。
 InitializeBuildStatus:
-  正在创建“cmTC_6dca2.dir\Debug\cmTC_6dca2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在创建“cmTC_e56a8.dir\Debug\cmTC_e56a8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6dca2.dir\Debug\\" /Fd"cmTC_6dca2.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e56a8.dir\Debug\\" /Fd"cmTC_e56a8.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
   用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.14.26431 版
   版权所有(C) Microsoft Corporation。保留所有权利。
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6dca2.dir\Debug\\" /Fd"cmTC_6dca2.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e56a8.dir\Debug\\" /Fd"cmTC_e56a8.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
   CMakeCXXCompilerABI.cpp
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_6dca2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_6dca2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_6dca2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6dca2.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_6dca2.vcxproj -> E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_6dca2.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_e56a8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_e56a8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_e56a8.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e56a8.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_e56a8.vcxproj -> E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_e56a8.exe
 FinalizeBuildStatus:
-  正在删除文件“cmTC_6dca2.dir\Debug\cmTC_6dca2.tlog\unsuccessfulbuild”。
-  正在对“cmTC_6dca2.dir\Debug\cmTC_6dca2.tlog\cmTC_6dca2.lastbuildstate”执行 Touch 任务。
-已完成生成项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_6dca2.vcxproj”(默认目标)的操作。
+  正在删除文件“cmTC_e56a8.dir\Debug\cmTC_e56a8.tlog\unsuccessfulbuild”。
+  正在对“cmTC_e56a8.dir\Debug\cmTC_e56a8.tlog\cmTC_e56a8.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_e56a8.vcxproj”(默认目标)的操作。
 
 已成功生成。
     0 个警告
     0 个错误
 
-已用时间 00:00:00.67
+已用时间 00:00:00.62
 
 
 
@@ -288,39 +288,39 @@ FinalizeBuildStatus:
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_11dbb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_f0626.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.179.6572
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2018/7/4 14:58:07。
-节点 1 上的项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_11dbb.vcxproj”(默认目标)。
+生成启动时间为 2018/7/4 15:22:08。
+节点 1 上的项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_f0626.vcxproj”(默认目标)。
 PrepareForBuild:
-  正在创建目录“cmTC_11dbb.dir\Debug\”。
+  正在创建目录“cmTC_f0626.dir\Debug\”。
   正在创建目录“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_11dbb.dir\Debug\cmTC_11dbb.tlog\”。
+  正在创建目录“cmTC_f0626.dir\Debug\cmTC_f0626.tlog\”。
 InitializeBuildStatus:
-  正在创建“cmTC_11dbb.dir\Debug\cmTC_11dbb.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在创建“cmTC_f0626.dir\Debug\cmTC_f0626.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_11dbb.dir\Debug\\" /Fd"cmTC_11dbb.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "E:\gitcode\Sinsy-NG\CMakeFiles\feature_tests.cxx"
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f0626.dir\Debug\\" /Fd"cmTC_f0626.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "E:\gitcode\Sinsy-NG\CMakeFiles\feature_tests.cxx"
   用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.14.26431 版
   版权所有(C) Microsoft Corporation。保留所有权利。
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_11dbb.dir\Debug\\" /Fd"cmTC_11dbb.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "E:\gitcode\Sinsy-NG\CMakeFiles\feature_tests.cxx"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f0626.dir\Debug\\" /Fd"cmTC_f0626.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "E:\gitcode\Sinsy-NG\CMakeFiles\feature_tests.cxx"
   feature_tests.cxx
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_11dbb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_11dbb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_11dbb.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_11dbb.dir\Debug\feature_tests.obj
-  cmTC_11dbb.vcxproj -> E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_11dbb.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_f0626.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_f0626.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/gitcode/Sinsy-NG/CMakeFiles/CMakeTmp/Debug/cmTC_f0626.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_f0626.dir\Debug\feature_tests.obj
+  cmTC_f0626.vcxproj -> E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\Debug\cmTC_f0626.exe
 FinalizeBuildStatus:
-  正在删除文件“cmTC_11dbb.dir\Debug\cmTC_11dbb.tlog\unsuccessfulbuild”。
-  正在对“cmTC_11dbb.dir\Debug\cmTC_11dbb.tlog\cmTC_11dbb.lastbuildstate”执行 Touch 任务。
-已完成生成项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_11dbb.vcxproj”(默认目标)的操作。
+  正在删除文件“cmTC_f0626.dir\Debug\cmTC_f0626.tlog\unsuccessfulbuild”。
+  正在对“cmTC_f0626.dir\Debug\cmTC_f0626.tlog\cmTC_f0626.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\gitcode\Sinsy-NG\CMakeFiles\CMakeTmp\cmTC_f0626.vcxproj”(默认目标)的操作。
 
 已成功生成。
     0 个警告
     0 个错误
 
-已用时间 00:00:00.64
+已用时间 00:00:00.67
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers

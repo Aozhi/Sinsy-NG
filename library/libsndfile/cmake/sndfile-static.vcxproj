@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0AF4A734-3104-365D-9F54-2209CAB8FA8A}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>sndfile-static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\gitcode\Sinsy-NG\library\libsndfile\cmake\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">sndfile-static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libsndfile</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\gitcode\Sinsy-NG\library\libsndfile\cmake\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">sndfile-static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libsndfile</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\gitcode\Sinsy-NG\library\libsndfile\cmake\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">sndfile-static.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libsndfile</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\gitcode\Sinsy-NG\library\libsndfile\cmake\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">sndfile-static.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libsndfile</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\gitcode\Sinsy-NG\library\libsndfile\cmake\src;E:\gitcode\Sinsy-NG\library\libsndfile\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\gitcode\Sinsy-NG\library\libsndfile\cmake\src;E:\gitcode\Sinsy-NG\library\libsndfile\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\gitcode\Sinsy-NG\library\libsndfile\cmake\src;E:\gitcode\Sinsy-NG\library\libsndfile\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\gitcode\Sinsy-NG\library\libsndfile\cmake\src;E:\gitcode\Sinsy-NG\library\libsndfile\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\gitcode\Sinsy-NG\library\libsndfile\cmake\src;E:\gitcode\Sinsy-NG\library\libsndfile\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\gitcode\Sinsy-NG\library\libsndfile\cmake\src;E:\gitcode\Sinsy-NG\library\libsndfile\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\gitcode\Sinsy-NG\library\libsndfile\cmake\src;E:\gitcode\Sinsy-NG\library\libsndfile\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\gitcode\Sinsy-NG\library\libsndfile\cmake\src;E:\gitcode\Sinsy-NG\library\libsndfile\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\gitcode\Sinsy-NG\library\libsndfile\cmake\src;E:\gitcode\Sinsy-NG\library\libsndfile\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\gitcode\Sinsy-NG\library\libsndfile\cmake\src;E:\gitcode\Sinsy-NG\library\libsndfile\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\gitcode\Sinsy-NG\library\libsndfile\cmake\src;E:\gitcode\Sinsy-NG\library\libsndfile\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\gitcode\Sinsy-NG\library\libsndfile\cmake\src;E:\gitcode\Sinsy-NG\library\libsndfile\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\gitcode\Sinsy-NG\library\libsndfile\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/gitcode/Sinsy-NG/library/libsndfile/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/gitcode/Sinsy-NG/library/libsndfile -BE:/gitcode/Sinsy-NG/library/libsndfile/cmake --check-stamp-file E:/gitcode/Sinsy-NG/library/libsndfile/cmake/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/gitcode/Sinsy-NG/library/libsndfile/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.12\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.12\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\TestEndianess.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\CMakeLists.txt;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\TestInline.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeAutoGen.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\3.12.0-rc1\CMakeCCompiler.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\3.12.0-rc1\CMakeCXXCompiler.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\3.12.0-rc1\CMakeRCCompiler.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\3.12.0-rc1\CMakeSystem.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_DOUBLE.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_FLOAT.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_INT64_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_LOFF_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_OFF64_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_SF_COUNT_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_VOIDP.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_WCHAR_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\feature_tests.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\feature_tests.cxx;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\ClipMode.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\FindFLAC.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\FindOgg.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\FindSQLite3.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\FindVorbis.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\LibSndFileConfig.cmake.in;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\SndFileChecks.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\TestInline.c.in;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\TestInline.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\TestLargeFiles.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\doc\libsndfile.css.in;E:\gitcode\Sinsy-NG\library\libsndfile\sndfile.pc.cmake.in;E:\gitcode\Sinsy-NG\library\libsndfile\src\config.h.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\src\sndfile.h.in;E:\gitcode\Sinsy-NG\library\libsndfile\src\version-metadata.rc.in;E:\gitcode\Sinsy-NG\library\libsndfile\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/gitcode/Sinsy-NG/library/libsndfile/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/gitcode/Sinsy-NG/library/libsndfile -BE:/gitcode/Sinsy-NG/library/libsndfile/cmake --check-stamp-file E:/gitcode/Sinsy-NG/library/libsndfile/cmake/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/gitcode/Sinsy-NG/library/libsndfile/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.12\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.12\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\TestEndianess.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\CMakeLists.txt;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\TestInline.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeAutoGen.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\3.12.0-rc1\CMakeCCompiler.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\3.12.0-rc1\CMakeCXXCompiler.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\3.12.0-rc1\CMakeRCCompiler.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\3.12.0-rc1\CMakeSystem.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_DOUBLE.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_FLOAT.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_INT64_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_LOFF_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_OFF64_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_SF_COUNT_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_VOIDP.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_WCHAR_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\feature_tests.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\feature_tests.cxx;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\ClipMode.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\FindFLAC.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\FindOgg.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\FindSQLite3.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\FindVorbis.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\LibSndFileConfig.cmake.in;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\SndFileChecks.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\TestInline.c.in;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\TestInline.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\TestLargeFiles.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\doc\libsndfile.css.in;E:\gitcode\Sinsy-NG\library\libsndfile\sndfile.pc.cmake.in;E:\gitcode\Sinsy-NG\library\libsndfile\src\config.h.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\src\sndfile.h.in;E:\gitcode\Sinsy-NG\library\libsndfile\src\version-metadata.rc.in;E:\gitcode\Sinsy-NG\library\libsndfile\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/gitcode/Sinsy-NG/library/libsndfile/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/gitcode/Sinsy-NG/library/libsndfile -BE:/gitcode/Sinsy-NG/library/libsndfile/cmake --check-stamp-file E:/gitcode/Sinsy-NG/library/libsndfile/cmake/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/gitcode/Sinsy-NG/library/libsndfile/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.12\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.12\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\TestEndianess.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\CMakeLists.txt;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\TestInline.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeAutoGen.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\3.12.0-rc1\CMakeCCompiler.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\3.12.0-rc1\CMakeCXXCompiler.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\3.12.0-rc1\CMakeRCCompiler.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\3.12.0-rc1\CMakeSystem.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_DOUBLE.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_FLOAT.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_INT64_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_LOFF_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_OFF64_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_SF_COUNT_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_VOIDP.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_WCHAR_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\feature_tests.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\feature_tests.cxx;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\ClipMode.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\FindFLAC.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\FindOgg.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\FindSQLite3.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\FindVorbis.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\LibSndFileConfig.cmake.in;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\SndFileChecks.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\TestInline.c.in;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\TestInline.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\TestLargeFiles.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\doc\libsndfile.css.in;E:\gitcode\Sinsy-NG\library\libsndfile\sndfile.pc.cmake.in;E:\gitcode\Sinsy-NG\library\libsndfile\src\config.h.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\src\sndfile.h.in;E:\gitcode\Sinsy-NG\library\libsndfile\src\version-metadata.rc.in;E:\gitcode\Sinsy-NG\library\libsndfile\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/gitcode/Sinsy-NG/library/libsndfile/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/gitcode/Sinsy-NG/library/libsndfile -BE:/gitcode/Sinsy-NG/library/libsndfile/cmake --check-stamp-file E:/gitcode/Sinsy-NG/library/libsndfile/cmake/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/gitcode/Sinsy-NG/library/libsndfile/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.12\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.12\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\TestEndianess.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\CMakeLists.txt;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\TestInline.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeAutoGen.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\3.12.0-rc1\CMakeCCompiler.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\3.12.0-rc1\CMakeCXXCompiler.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\3.12.0-rc1\CMakeRCCompiler.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\3.12.0-rc1\CMakeSystem.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_DOUBLE.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_FLOAT.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_INT64_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_LOFF_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_OFF64_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_SF_COUNT_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_VOIDP.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\CheckTypeSize\SIZEOF_WCHAR_T.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\feature_tests.c;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\feature_tests.cxx;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\ClipMode.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\FindFLAC.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\FindOgg.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\FindSQLite3.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\FindVorbis.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\LibSndFileConfig.cmake.in;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\SndFileChecks.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\TestInline.c.in;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\TestInline.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\cmake\TestLargeFiles.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\doc\libsndfile.css.in;E:\gitcode\Sinsy-NG\library\libsndfile\sndfile.pc.cmake.in;E:\gitcode\Sinsy-NG\library\libsndfile\src\config.h.cmake;E:\gitcode\Sinsy-NG\library\libsndfile\src\sndfile.h.in;E:\gitcode\Sinsy-NG\library\libsndfile\src\version-metadata.rc.in;E:\gitcode\Sinsy-NG\library\libsndfile\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\gitcode\Sinsy-NG\library\libsndfile\cmake\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\common.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\file_io.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\command.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\pcm.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ulaw.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\alaw.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\float32.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\double64.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ima_adpcm.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ms_adpcm.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\gsm610.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\dwvw.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\vox_adpcm.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\interleave.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\strings.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\dither.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\cart.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\broadcast.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\audio_detect.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ima_oki_adpcm.c" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ima_oki_adpcm.h" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\alac.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\chunk.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ogg.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\chanmap.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\id3.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\windows.c" />
+    <ResourceCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\src\version-metadata.rc" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\sndfile.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\aiff.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\au.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\avr.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\caf.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\dwd.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\flac.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\g72x.c">
+      <ObjectFileName>$(IntDir)/src/g72x.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\htk.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ircam.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\macos.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\mat4.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\mat5.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\nist.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\paf.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\pvf.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\raw.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\rx2.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\sd2.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\sds.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\svx.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\txw.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\voc.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\wve.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\w64.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\wavlike.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\wav.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\xi.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\mpc2k.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\rf64.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ogg_vorbis.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ogg_speex.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ogg_pcm.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ogg_opus.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\nms_adpcm.c" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\common.h" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\sfconfig.h" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\sfendian.h" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\wavlike.h" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\sf_unistd.h" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ogg.h" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\chanmap.h" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\GSM610\config.h" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\GSM610\gsm.h" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\GSM610\gsm610_priv.h" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\GSM610\add.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\GSM610\code.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\GSM610\decode.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\GSM610\gsm_create.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\GSM610\gsm_decode.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\GSM610\gsm_destroy.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\GSM610\gsm_encode.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\GSM610\gsm_option.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\GSM610\long_term.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\GSM610\lpc.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\GSM610\preprocess.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\GSM610\rpe.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\GSM610\short_term.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\GSM610\table.c" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\G72x\g72x.h" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\G72x\g72x_priv.h" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\G72x\g721.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\G72x\g723_16.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\G72x\g723_24.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\G72x\g723_40.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\G72x\g72x.c">
+      <ObjectFileName>$(IntDir)/src/G72x/g72x.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ALAC\ALACAudioTypes.h" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ALAC\ALACBitUtilities.h" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ALAC\EndianPortable.h" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ALAC\aglib.h" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ALAC\dplib.h" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ALAC\matrixlib.h" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ALAC\alac_codec.h" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ALAC\shift.h" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ALAC\ALACBitUtilities.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ALAC\ag_dec.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ALAC\ag_enc.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ALAC\dp_dec.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ALAC\dp_enc.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ALAC\matrix_dec.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ALAC\matrix_enc.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ALAC\alac_decoder.c" />
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\ALAC\alac_encoder.c" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\src\sndfile.hh" />
+    <ClInclude Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\src\sndfile.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\gitcode\Sinsy-NG\library\libsndfile\cmake\ZERO_CHECK.vcxproj">
+      <Project>{A445599C-705A-30B9-8F62-BC34F591B11A}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

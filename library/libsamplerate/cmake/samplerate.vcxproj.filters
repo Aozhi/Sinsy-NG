@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsamplerate\src\samplerate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsamplerate\src\src_linear.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsamplerate\src\src_sinc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\library\libsamplerate\src\src_zoh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\gitcode\Sinsy-NG\library\libsamplerate\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\gitcode\Sinsy-NG\library\libsamplerate\Win32\libsamplerate-0.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7B04C679-6230-3120-9BD3-EC830816A165}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
