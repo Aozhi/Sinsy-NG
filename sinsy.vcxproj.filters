@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\converter\ConfGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\converter\ConfManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\converter\Converter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\converter\PhonemeInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\converter\UnknownConf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\converter\util_converter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\hts_engine_API\HtsEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\hts_engine_API\SynthConditionImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\japanese\JConf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\label\LabelData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\label\LabelMaker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\label\LabelMeasure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\label\LabelPosition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\label\LabelStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\label\LabelStrings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\label\NoteGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\label\NoteLabeler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\label\PhonemeLabeler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\label\SyllableLabeler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\score\Beat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\score\Dynamics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\score\Key.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\score\Mode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\score\Note.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\score\Pitch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\score\ScorePosition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\score\Slur.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\score\Syllabic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\score\util_score.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\temporary\ScoreDoctor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\temporary\TempScore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\util\Configurations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\util\DiphthongConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\util\IStringable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\util\InputFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\util\MacronTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\util\MultibyteCharRange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\util\OutputFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\util\PhonemeTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\util\StringTokenizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\util\util_string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\xml\XmlData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\xml\XmlParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\xml\XmlReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\xml\XmlWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\shm_ringbuffer\ringbuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\gitcode\Sinsy-NG\lib\Sinsy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\gitcode\Sinsy-NG\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B9B59DA7-D48D-3632-9140-72057D601F6A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

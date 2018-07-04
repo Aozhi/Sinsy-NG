@@ -1,0 +1,160 @@
+﻿  Building Custom Rule E:/gitcode/Sinsy-NG/CMakeLists.txt
+  CMake does not need to re-run because E:/gitcode/Sinsy-NG/CMakeFiles/generate.stamp is up-to-date.
+cl : 命令行 warning D9002: 忽略未知选项“--std=gnu++11”
+  ConfGroup.cpp
+  ConfManager.cpp
+  Converter.cpp
+  PhonemeInfo.cpp
+  UnknownConf.cpp
+  util_converter.cpp
+  HtsEngine.cpp
+  SynthConditionImpl.cpp
+  JConf.cpp
+  LabelData.cpp
+  LabelMaker.cpp
+e:\gitcode\sinsy-ng\lib\label\labelmaker.cpp(1730): warning C4244: “=”: 从“sinsy::INT64”转换到“size_t”，可能丢失数据
+e:\gitcode\sinsy-ng\lib\label\labelmaker.cpp(1738): warning C4244: “=”: 从“sinsy::INT64”转换到“size_t”，可能丢失数据
+  LabelMeasure.cpp
+e:\gitcode\sinsy-ng\lib\label\labelmeasure.cpp(70): warning C4244: “参数”: 从“sinsy::INT64”转换到“size_t”，可能丢失数据
+e:\gitcode\sinsy-ng\lib\label\labelmeasure.cpp(87): warning C4244: “参数”: 从“sinsy::INT64”转换到“size_t”，可能丢失数据
+  LabelPosition.cpp
+  LabelStream.cpp
+  LabelStrings.cpp
+e:\gitcode\sinsy-ng\lib\label\labelstrings.cpp(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+  NoteGroup.cpp
+  NoteLabeler.cpp
+e:\gitcode\sinsy-ng\lib\label\notelabeler.cpp(376): warning C4244: “参数”: 从“sinsy::INT64”转换到“size_t”，可能丢失数据
+e:\gitcode\sinsy-ng\lib\label\notelabeler.cpp(379): warning C4244: “参数”: 从“sinsy::INT64”转换到“size_t”，可能丢失数据
+e:\gitcode\sinsy-ng\lib\label\notelabeler.cpp(382): warning C4244: “参数”: 从“sinsy::INT64”转换到“size_t”，可能丢失数据
+e:\gitcode\sinsy-ng\lib\label\notelabeler.cpp(780): warning C4244: “参数”: 从“sinsy::INT64”转换到“size_t”，可能丢失数据
+e:\gitcode\sinsy-ng\lib\label\notelabeler.cpp(783): warning C4244: “参数”: 从“sinsy::INT64”转换到“size_t”，可能丢失数据
+  PhonemeLabeler.cpp
+  SyllableLabeler.cpp
+  Beat.cpp
+  正在生成代码...
+  正在编译...
+  Dynamics.cpp
+  Key.cpp
+  Mode.cpp
+  Note.cpp
+  Pitch.cpp
+  ScorePosition.cpp
+  Slur.cpp
+  Syllabic.cpp
+  util_score.cpp
+  ScoreDoctor.cpp
+  TempScore.cpp
+  Configurations.cpp
+  DiphthongConverter.cpp
+  IStringable.cpp
+  InputFile.cpp
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(64): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(71): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(88): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(96): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(104): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(112): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(120): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(128): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(136): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(144): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(152): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(160): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(168): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\inputfile.h(65): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\inputfile.cpp(77): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\inputfile.cpp(86): warning C4244: “初始化”: 从“std::streamsize”转换到“int”，可能丢失数据
+  MacronTable.cpp
+  MultibyteCharRange.cpp
+  OutputFile.cpp
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(63): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(87): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(95): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(103): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(111): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(119): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(127): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(135): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(143): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(151): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(159): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(167): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\outputfile.h(65): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\outputfile.cpp(76): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+  PhonemeTable.cpp
+  StringTokenizer.cpp
+  正在生成代码...
+  正在编译...
+  util_string.cpp
+  XmlData.cpp
+  XmlParser.cpp
+e:\gitcode\sinsy-ng\lib\xml\xmlparser.h(62): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(64): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(71): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(88): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(96): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(104): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(112): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(120): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(128): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(136): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(144): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(152): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(160): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(168): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\inputfile.h(65): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\xml\xmlparser.cpp(60): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\xml\xmlparser.cpp(75): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\xml\xmlparser.cpp(92): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\xml\xmlparser.cpp(203): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+  XmlReader.cpp
+e:\gitcode\sinsy-ng\lib\xml\xmlparser.h(62): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+  XmlWriter.cpp
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(63): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(87): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(95): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(103): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(111): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(119): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(127): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(135): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(143): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(151): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(159): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(167): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\writablestrstream.h(67): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+  ringbuffer.cpp
+e:\gitcode\sinsy-ng\lib\shm_ringbuffer\ringbuffer.cpp(29): fatal error C1083: 无法打开包括文件: “sys/mman.h”: No such file or directory
+  Sinsy.cpp
+e:\gitcode\sinsy-ng\lib\xml\xmlparser.h(62): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(64): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(71): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(88): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(96): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(104): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(112): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(120): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(128): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(136): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(144): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(152): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(160): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\ireadablestream.h(168): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\inputfile.h(65): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(63): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(87): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(95): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(103): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(111): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(119): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(127): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(135): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(143): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(151): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(159): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\iwritablestream.h(167): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\outputfile.h(65): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+e:\gitcode\sinsy-ng\lib\util\writablestrstream.h(67): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+  正在生成代码...
+e:\gitcode\sinsy-ng\lib\sinsy.cpp(433): error C4716: “sinsy::SinsyImpl::loadVoices”: 必须返回一个值

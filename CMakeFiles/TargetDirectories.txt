@@ -1,0 +1,5 @@
+E:/gitcode/Sinsy-NG/CMakeFiles/sinsy.dir
+E:/gitcode/Sinsy-NG/CMakeFiles/sinsyNG.dir
+E:/gitcode/Sinsy-NG/CMakeFiles/INSTALL.dir
+E:/gitcode/Sinsy-NG/CMakeFiles/ALL_BUILD.dir
+E:/gitcode/Sinsy-NG/CMakeFiles/ZERO_CHECK.dir
