@@ -1,10 +1,10 @@
-voice en
+#note(size_t duration, const std::string& lyric, size_t pitch, bool accent, bool staccato, TieType tieType, SlurType slurType, SyllabicType syllabicType, bool breath)
 resample 48000 
-note 1920 こ 60 0 0 0 0 0
-note 1920 ん 62 0 0 0 0 0
-note 1920 じ 64 0 0 0 0 0
-note 1920 わ 65 0 0 0 0 0
-rest 480
-
-
-
+rest 1920
+voice ja
+note 1920 あ 60 0 0 1 0 0
+note 1920 い 62 0 0 0 0 0
+note 1920 う 64 0 0 0 0 0
+note 1920 え 66 0 0 0 0 0
+note 1920 お 68 0 0 2 0 0
+# and in Japanese

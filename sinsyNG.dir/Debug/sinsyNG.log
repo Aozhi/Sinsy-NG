@@ -1,7 +1,0 @@
-﻿cl : 命令行 warning D9002: 忽略未知选项“--std=gnu++11”
-  sinsy.cpp
-e:\gitcode\sinsy-ng\bin\sinsy.cpp(126): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
-e:\gitcode\sinsy-ng\bin\sinsy.cpp(265): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-e:\gitcode\sinsy-ng\bin\sinsy.cpp(318): warning C4018: “<”: 有符号/无符号不匹配
-e:\gitcode\sinsy-ng\bin\sinsy.cpp(334): warning C4018: “<”: 有符号/无符号不匹配
-LINK : fatal error LNK1104: 无法打开文件“Debug\sinsy.lib”
